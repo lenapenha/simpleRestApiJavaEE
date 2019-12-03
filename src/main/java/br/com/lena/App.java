@@ -1,7 +1,10 @@
 package br.com.lena;
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello Java");
-    }
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
+
+@ApplicationPath("/api")
+public class App extends Application{
+
 }
